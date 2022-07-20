@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnDisplay.setOnClickListener(){
             student.programme = "RIS"
+            student.age = 21
 
             binding.apply {
                 invalidateAll()
